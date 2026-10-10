@@ -16,12 +16,69 @@ const projects = [
 ];
 
 const experience = [
-  { date: 'FEB 2022 — PRESENT', role: 'Technology Solutions Manager / .NET Full Stack Lead', company: 'Gemini Solutions', location: 'Remote · Canada', points: ['Lead hands-on full-stack development across .NET, React, TypeScript, SQL, and integration services.', 'Deliver real-estate workflows connecting Autodesk tools, 3D visualization, and business data.', 'Support technical direction, code reviews, mentoring, and stakeholder collaboration.'] },
-  { date: 'MAR 2021 — DEC 2021', role: 'Software Tech Lead', company: 'Nityo Infotech', location: 'Burlington, North Carolina', points: ['Developed insurance modules using C#, .NET Core, Web API/WCF, EF Core, and RabbitMQ.', 'Coordinated with onsite stakeholders and supported delivery across the development team.'] },
-  { date: 'MAR 2020 — MAR 2021', role: 'Sitecore Developer', company: 'Horizontal Integration', location: 'Texas, USA', points: ['Built commerce pricing and API features using Sitecore Commerce and BizFX.', 'Contributed to banking applications on Sitecore XP.'] },
-  { date: 'FEB 2019 — MAR 2020', role: 'Software Developer', company: 'L&T Infotech', location: 'Charlotte, North Carolina', points: ['Built insurance desktop and web applications using WPF/MVVM, Angular, and ASP.NET.', 'Applied Onion Architecture, logging, telemetry, and dependency-injection patterns.'] },
-  { date: 'FEB 2015 — JUL 2017', role: 'Senior Software Developer', company: 'Nagarro', location: 'Gurgaon, India', points: ['Delivered inquiry and document-management solutions and investigated production issues.', 'Worked on a USDA desktop application using geographic coordinates and ArcGIS.'] },
-  { date: 'JAN 2012 — DEC 2014', role: 'Software Associate', company: 'Mindfire Solutions', location: 'Noida, India', points: ['Developed marketplace and payment integrations, including transactions, refunds, and invoicing.', 'Built WPF and ASP.NET modules across multiple client projects.'] },
+{
+  date: 'FEB 2022 — PRESENT',
+  role: 'Technology Solutions Manager / .NET Full Stack Lead',
+  company: 'Gemini Solutions',
+  location: 'Alberta, Remote, Canada',
+  points: [
+    'Led and developed full-stack applications across Real Estate, Financial Services, and Insurance domains using C#, .NET 6/8, ASP.NET Core, Web API, Entity Framework Core, React, Angular, TypeScript, SQL Server, PostgreSQL, WPF/MVVM, and AWS.',
+    'Developed end-to-end business workflows and integration services connecting Autodesk Forge Viewer, Revit, Power Automate, REST APIs, RabbitMQ, databases, and third-party systems to support 3D visualization, business operations, and data processing.',
+    'Applied Onion Architecture, Domain-Driven Design (DDD), SOLID principles, object-oriented programming, and design patterns to build maintainable, scalable, and reliable software solutions.',
+    'Provided technical leadership through architecture guidance, code reviews, developer mentoring, technical problem-solving, and stakeholder collaboration to deliver business-aligned solutions and maintain engineering standards.'
+  ]
+},
+
+{
+  date: 'MAR 2021 — DEC 2021',
+  role: 'Software Tech Lead',
+  company: 'Nityo Infotech',
+  location: 'Burlington, North Carolina, USA',
+  points: [
+    'Led development of enterprise insurance applications for Carrier Management, Underwriting, Document Management, and Document Server using C#, ASP.NET, Web API, WCF, WPF/MVVM, Angular 8, TypeScript, EF Core, LINQ, SQL, XML, and REST APIs.',
+    'Implemented Repository Pattern and RabbitMQ messaging for enterprise integrations, while supporting requirements analysis, troubleshooting, technical coordination, and offshore team delivery.'
+  ]
+},
+{
+  date: 'MAR 2020 — MAR 2021',
+  role: 'Sitecore Developer',
+  company: 'Horizontal Integration',
+  location: 'Addison, Texas, USA',
+  points: [
+    'Developed enterprise Electric & Natural Gas and Banking applications using C#, ASP.NET MVC, Sitecore Commerce 9, Sitecore XP, BizFX, Web API, SQL Server, HTML, CSS, and JavaScript.',
+    'Implemented commerce pricing features including PriceBooks, PriceCards, Snapshots, pricing imports, and external API integrations, while maintaining enterprise Internet, Intranet, and form-based applications.'
+  ]
+},
+{
+  date: 'FEB 2019 — MAR 2020',
+  role: 'Software Developer',
+  company: 'L&T Infotech',
+  location: 'Charlotte, North Carolina, USA',
+  points: [
+    'Developed enterprise insurance applications for Rating, Document Server, and Agency Management using C#, ASP.NET, Web API, WCF, WPF/MVVM, Angular 8, TypeScript, EF Core, LINQ, and SQL Server.',
+    'Applied Onion Architecture, Autofac dependency injection, AutoMapper, FluentValidation, Rx Observables, and Telerik; implemented logging and telemetry with NLog and Application Insights while supporting integrations, enhancements, and production troubleshooting.'
+  ]
+},
+{
+  date: 'FEB 2015 — JUL 2017',
+  role: 'Senior Software Developer',
+  company: 'Nagarro',
+  location: 'Gurugram, Haryana, India',
+  points: [
+    'Developed Inquiry Management, Document Management, Event Management, and Twitter Data Analytics applications using C#, VB.NET, ASP.NET MVC, AngularJS, Knockout, jQuery, Entity Framework, LINQ, and SQL Server.',
+    'Built web and desktop application features, including location-based data visualization using ESRI ArcGIS, and handled client requirements, production support, troubleshooting, and application enhancements.'
+  ]
+},
+{
+  date: 'JAN 2012 — DEC 2014',
+  role: 'Software Associate',
+  company: 'Mindfire Solutions',
+  location: 'Noida, Uttar Pradesh, India',
+  points: [
+    'Developed Marketplace, Medical Document Management, Billing, and Event Management applications using C#, ASP.NET, MVC, Web API, WPF/MVVM, WCF, AngularJS, Entity Framework, LINQ, jQuery, AJAX, Bootstrap, and SQL Server.',
+    'Integrated PayPal and Amazon APIs for payment processing, refunds, and transaction workflows; developed Windows Services, database components, business logic, and REST/XML integrations using Three-Tier Architecture.'
+  ]
+}
 ];
 
 function App() {
